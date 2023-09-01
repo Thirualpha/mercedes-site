@@ -1,0 +1,80 @@
+
+<html>
+<head><title> log </title>
+
+<style>
+h1{
+text-shadow:7px 4px black;
+}
+h1{
+color:silver;
+}
+body{
+background-image:url("login.jpg");
+background-repeat:no-repeat;
+background-size:1600px 760px;
+}
+form{
+color:white;
+}
+.button{
+	display:inline-block;
+	padding:7 15;
+	font-size:17;
+	cursor:pointer;
+	text-align:center;
+	
+	outline:none;
+	color:white;
+	background-color:red;
+	
+	border-radius:12px;
+	box-shadow:0 8 #666;
+}
+.button:hover{
+	background-color:lightred;
+}
+.button:active{
+	background-color:green;
+	box-shadow:0 4px #666;
+	transform:translateY(4px);
+}
+.buttton{
+	display:inline-block;
+	padding:7 17;
+	font-size:17;
+	cursor:pointer;
+	color:white;
+	background-color:red;
+	border-radius:12px;
+	box shadow:0 8 #666;
+}
+.buttton:hover{
+	background-color:;
+}
+.buttton:active{
+	background-color:black;
+	box-shadow:0 4px #666;
+	transform:translateX(4px);
+}
+
+
+</style>
+</head>
+<body>
+<center><i><h1>Would you like to LOGIN ?</i><h1>&#128526;</h1></h1></center>
+<form style="font-size:1.3vw">
+<p>&emsp;Dear Customer ,  kindly fill out your basic details to log you in  </p><br>&emsp;&emsp;
+Name   &emsp; : <input type="text" name="fname" value=" "pattern="(?=.*[a-z])(?=.*[A-Z]).{3,}" title="Your name should be minimum of 3 letters and contains upper and lowercase alphabets"required><br><br><br>&emsp;&emsp;
+
+Password : <input type="password" name="password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{7,}"
+       title="Must contain atleast one number and one uppercase and one lowercase letter and minimum of 7 characters" required>
+       <br><br><br>&emsp;&emsp;
+
+E-mail &emsp;&nbsp;: <input type="text" name="email" value=" "><br><br><br>&emsp;&emsp;
+
+<button class="button"> Submit </button>  &emsp;&emsp;<button class="buttton"> Reset</button>
+
+</form> 
+</body>
+</html>
